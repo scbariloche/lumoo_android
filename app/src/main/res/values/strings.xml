@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lumoo</string>
+    <string name="title_home">mein Profil</string>
+    <string name="title_discover">entdecken</string>
+    <string name="title_filter">filtern</string>
+    <string name="title_events">Veranstalungen</string>
+    <string name="title_chats">Nachrichten</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
