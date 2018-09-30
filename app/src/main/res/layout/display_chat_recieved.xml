@@ -18,14 +18,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/background_rounded_corners"
-        android:paddingBottom="8dp"
-        android:paddingEnd="16dp"
-        android:paddingStart="16dp"
-        android:paddingTop="8dp">
+        android:background="@drawable/background_chat_recieved"
+        >
 
         <TextView
             android:id="@+id/lbl_chat_recieved"
