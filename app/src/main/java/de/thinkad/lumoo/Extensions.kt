@@ -3,7 +3,7 @@ package de.thinkad.lumoo
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import de.thinkad.lumoo.interfaces.Filterable
+import de.thinkad.lumoo.business.interfaces.Filterable
 import java.text.SimpleDateFormat
 import java.util.*
 

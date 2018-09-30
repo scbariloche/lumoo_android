@@ -14,6 +14,7 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
+        manifestPlaceholders = [HOCKEYAPP_APP_ID: "ff227c63bcc14a58a374bc6ee7fbb84c"]
     }
     dataBinding {
         enabled = true
@@ -40,11 +41,12 @@ dependencies {
 //    introslider
     implementation 'com.heinrichreimersoftware:material-intro:1.6.2'
 //    bottomnavigation
-    compile 'com.github.ittianyu:BottomNavigationViewEx:1.2.4'
-    compile "com.android.support:design:26.+"
-    compile "org.jetbrains.anko:anko:$anko_version"
+    implementation 'com.github.ittianyu:BottomNavigationViewEx:1.2.4'
+    implementation "com.android.support:design:26.+"
+    implementation "org.jetbrains.anko:anko:$anko_version"
     //    CircleImage
     implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'net.hockeyapp.android:HockeySDK:5.1.1'
 }
 
 

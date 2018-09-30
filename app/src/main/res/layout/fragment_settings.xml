@@ -6,7 +6,7 @@
     android:paddingEnd="8dp"
     android:paddingStart="8dp"
     android:weightSum="5"
-    tools:context="de.thinkad.lumoo.tabbar_fragments.SettingsFragment">
+    tools:context=".application.tabbar_fragments.SettingsFragment">
 
 
     <TextView
