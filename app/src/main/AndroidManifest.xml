@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".application.MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name">
             <intent-filter>
@@ -20,26 +20,30 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ChatActivity"
+            android:name=".application.ChatActivity"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name=".dialogs.NewEventActivity"
+            android:name=".application.dialogs.NewEventActivity"
             android:theme="@style/Dialog" />
         <activity
-            android:name=".dialogs.FilterEventActivity"
+            android:name=".application.dialogs.FilterEventActivity"
             android:theme="@style/Dialog" />
         <activity
-            android:name=".dialogs.EditProfileActivity"
+            android:name=".application.dialogs.EditProfileActivity"
             android:theme="@style/Dialog" />
         <activity
-            android:name=".dialogs.ProfileActivity"
+            android:name=".application.dialogs.ProfileActivity"
             android:theme="@style/Dialog" />
-        <activity android:name=".dialogs.EventActivity"
+        <activity
+            android:name=".application.dialogs.EventActivity"
             android:theme="@style/Dialog"></activity>
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="net.hockeyapp.android.appIdentifier"
+            android:value="${HOCKEYAPP_APP_ID}" />
     </application>
 
 </manifest>

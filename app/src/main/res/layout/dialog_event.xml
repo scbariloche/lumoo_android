@@ -7,7 +7,7 @@
     android:layout_margin="16dp"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context="de.thinkad.lumoo.dialogs.EventActivity">
+    tools:context="de.thinkad.lumoo.application.dialogs.EventActivity">
 
     <FrameLayout
         android:id="@+id/top_bar"

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_rounded_corners_filled_light"
     android:orientation="vertical"
-    tools:context="de.thinkad.lumoo.dialogs.NewEventActivity">
+    tools:context="de.thinkad.lumoo.application.dialogs.NewEventActivity">
 
     <EditText
         android:id="@+id/edit_title"
