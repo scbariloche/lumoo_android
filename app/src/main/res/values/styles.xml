@@ -8,6 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textSize">24dp</item>
     </style>
+
     <style name="ToolBarAppearence" parent="Base.Widget.AppCompat.Toolbar">
         <item name="android:textAllCaps">true</item>
         <item name="android:layout_gravity">center_horizontal</item>
@@ -24,14 +25,15 @@
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
     <style name="Dialog" parent="@style/Theme.AppCompat.Light.Dialog">
-        <item name="android:windowBackground">@drawable/background_rounded_corners_filled_light</item>
+        <item name="android:windowBackground">@drawable/background_rounded_corners_filled_light
+        </item>
         <item name="windowNoTitle">true</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
 
     </style>
 
     <style name="lumoo_alert_dialog" parent="@android:style/Theme.Material.Dialog.Alert" tools:targetApi="lollipop">
-       <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
         <item name="android:labelTextSize">24dp</item>
         <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
         <item name="android:textColor">@color/colorAccent</item>

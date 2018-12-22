@@ -5,8 +5,19 @@
     <string name="title_filter">filtern</string>
     <string name="title_events">Veranstalungen</string>
     <string name="title_chats">Nachrichten</string>
+    
+    <string name="welcome_login">LOGIN</string>
+    <string name="welcome_register">REGISTRIEREN</string>
+    <string name="welcome_1">Du hast viel Zeit und willst deine Freizeit aktiv gestalten?</string>
+    <string name="welcome_2">Du möchtest wandern…</string>
+    <string name="welcome_3">… oder in Ausstellungen??</string>
+    <string name="welcome_4">Hast aber niemanden, der mitgeht?</string>
+    <string name="welcome_5">Lerne jetzt neue Freunde mit gleichen Interessen kennen</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    
+    
 </resources>
